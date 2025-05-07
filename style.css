@@ -55,6 +55,20 @@ i{
 .all-Tasks-box{
     width: 100%;
     height: auto;
+    padding: 22px 18px;
     border-radius: 16px;
     background-image: linear-gradient(to right,#56CCFF,#5c61be,#C942A7);
+}
+.task{
+    width: 100%;
+    height: 57px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 17px;
+}
+.icons{
+    display: flex;
+    gap: 15px;
 }
