@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-=======
 
-
->>>>>>> Ahmed-branch
 body{
     width: 100%;
     height: 100vw;
@@ -53,10 +49,7 @@ form{
     border-top-right-radius: 14px;
     border-bottom-right-radius: 14px;
     background-image: linear-gradient(to right,#56CCFF,#5c61be,#C942A7);
-<<<<<<< HEAD
-=======
     cursor: pointer;
->>>>>>> Ahmed-branch
 }
 i{
     font-size: 24px;
@@ -105,10 +98,7 @@ select{
 .icons{
     display: flex;
     gap: 15px;
-<<<<<<< HEAD
-=======
     cursor: pointer;
->>>>>>> Ahmed-branch
 }
 @media (min-width: 768px) and (max-width: 1024px) {    
     .main-container{
@@ -151,9 +141,6 @@ select{
     i{font-size: 16px;}
     h2{font-size: 1.2rem;}
     p{font-size: 0.9rem;}
-<<<<<<< HEAD
-}
-=======
 }
 
 
@@ -181,4 +168,3 @@ select{
   border-color: #C942A7;
   box-shadow: 0 0 5px rgba(201, 66, 167, 0.5);
 }
->>>>>>> Ahmed-branch
