@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> Ahmed-branch
 body{
     width: 100%;
     height: 100vw;
@@ -48,6 +53,10 @@ form{
     border-top-right-radius: 14px;
     border-bottom-right-radius: 14px;
     background-image: linear-gradient(to right,#56CCFF,#5c61be,#C942A7);
+<<<<<<< HEAD
+=======
+    cursor: pointer;
+>>>>>>> Ahmed-branch
 }
 i{
     font-size: 24px;
@@ -96,6 +105,10 @@ select{
 .icons{
     display: flex;
     gap: 15px;
+<<<<<<< HEAD
+=======
+    cursor: pointer;
+>>>>>>> Ahmed-branch
 }
 @media (min-width: 768px) and (max-width: 1024px) {    
     .main-container{
@@ -138,4 +151,34 @@ select{
     i{font-size: 16px;}
     h2{font-size: 1.2rem;}
     p{font-size: 0.9rem;}
+<<<<<<< HEAD
 }
+=======
+}
+
+
+/* Nasr Edits */
+/* i added the following status style + i added the cursor:pointer to the icons and input */
+/* Style the select box (status) */
+.status select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: brown;
+  background-color: #E5E9F7;
+  border: 2px solid #5554EF;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.status select:hover {
+  background-color: #d4d9ec;
+}
+
+.status select:focus {
+  border-color: #C942A7;
+  box-shadow: 0 0 5px rgba(201, 66, 167, 0.5);
+}
+>>>>>>> Ahmed-branch
