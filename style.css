@@ -1,0 +1,171 @@
+
+
+body{
+    width: 100%;
+    height: 100vw;
+    background-color: #E5E9F7;
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+h1{
+    color: #5554EF;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+form{
+    width: 100%;
+    height: 57px;
+    display: flex;
+}
+#Task-input{
+    width: 86%;
+    height: 100%;
+    background-color: white;
+    border: none;
+    padding: 16px;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+#Task-input::placeholder{
+    color: #8C8A8A;
+    font-size: 24px;
+}
+#submit-btn{
+    flex-grow: 1;
+    border: none;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    background-image: linear-gradient(to right,#56CCFF,#5c61be,#C942A7);
+    cursor: pointer;
+}
+i{
+    font-size: 24px;
+}
+.all-Tasks-box{
+    width: 100%;
+    height: auto;
+    padding: 22px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    border-radius: 16px;
+    background-image: linear-gradient(to right,#56CCFF,#5c61be,#C942A7);
+}
+.task{
+    width: 100%;
+    height: 57px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 17px;
+}
+.inner-box{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+label{
+    color:#5554EF;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.5rem;
+}
+p{
+    color: #8C8A8A;
+    font-size: 1rem;
+}
+select{
+    border: none;
+}
+.icons{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 1024px) {    
+    .main-container{
+        width: 100%;
+        gap: 24px;
+    }
+}
+@media (max-width: 767px) {
+    .main-container{
+        width: 100%;
+        gap: 16px;
+    }
+    form{
+        height: 40px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    #Task-input::placeholder{
+        font-size: 1.2rem;
+    }
+    .all-Tasks-box{
+        padding: 11px 9px;
+        gap: 11px;
+    }
+    .task{
+        padding: 5px 8px;
+    }
+    .inner-box{
+        width: 54%;
+        flex-direction: column-reverse;
+        align-items: end;
+        justify-content: center;
+        gap: 7%;
+    }
+    label{
+        font-size: 1rem;
+        display: inline;
+    }
+    i{font-size: 16px;}
+    h2{font-size: 1.2rem;}
+    p{font-size: 0.9rem;}
+}
+
+
+/* Nasr Edits */
+/* i added the following status style + i added the cursor:pointer to the icons and input */
+/* Style the select box (status) */
+.status select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: brown;
+  background-color: #E5E9F7;
+  border: 2px solid #5554EF;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.status select:hover {
+  background-color: #d4d9ec;
+}
+
+.status select:focus {
+  border-color: #C942A7;
+  box-shadow: 0 0 5px rgba(201, 66, 167, 0.5);
+}
